@@ -1,0 +1,18 @@
+.turistas {
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin: .3rem;
+  text-align: justify;
+}
+
+.introduccion {
+  padding-bottom: 20px;
+}

@@ -1,0 +1,111 @@
+.info-suc {
+  margin-bottom: 20px;
+}
+
+.centrado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.centrado p {
+  padding: 10px 0px;
+}
+@media screen and (min-width:768px) {
+  .centrado {
+    padding-left: 5rem;
+    align-items: flex-start;
+  }
+
+  .botones {
+    padding-left: 5rem;
+  }
+}
+
+.maps {
+  margin-bottom: 20px;
+}
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.boton-telefono {
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: var(--color-header);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+}
+
+.boton-telefono:hover {
+  opacity: 0.8;
+}
+
+label {
+  display: block;
+  margin-bottom: .2rem;
+}
+
+input, textarea {
+  width: 100vw;
+  box-sizing: border-box;
+  margin-bottom: .6rem;
+  background-color: rgb(255, 254, 254);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.form-container {
+  width: 100%;
+  padding: 0;
+}
+
+.form-container > * {
+  padding: 0;
+}
+
+.form {
+  row-gap: 0;
+}
+
+button {
+  background-color: var(--color-header);
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 2px solid var(--color-hero);
+}
+
+.direcciones {
+  margin-top: 20px;
+  gap: 0;
+}
+.location-info {
+  text-align: left;
+  padding: 1rem;
+  color: #fff;
+}
+
+.parte-1 {
+  background-color: #65a3a0;
+}
+
+.parte-2 {
+  background-color: #52899c;
+}
+
+.parte-3 {
+  background-color: #537079;
+}
+
+.location-info a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}

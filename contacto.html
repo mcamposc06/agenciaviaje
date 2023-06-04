@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactanos | Espirit Aventurier</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/grid.css">
+  <link rel="stylesheet" href="./css/contacto.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="logo">
+          <a href="/"><img src="logo.png" alt=""></a>
+        </div>
+        <input type="checkbox" id="nav-check">
+        <label for="nav-check" class="nav-toggler">
+          <span></span>
+        </label>
+        <nav class="nav">
+          <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="./about.html">Sobre Nosotros</a></li>
+            <li><a href="./nacionales.html">Destinos Nacionales</a></li>
+            <li><a href="./internacionales.html">Destinos Internacionales</a></li>
+            <li><a href="./contacto.html"class="active">Contactanos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="main-content">
+    <!-- Aca iria el contenido -->
+    <div class="grid-container">
+      <h1 class="grid-item small-12 title">Sucursales</h1>
+      <div class="grid-item contenido small-12">
+        <p class="info-suc">Espirit Aventurier tiene a su disposición nuestras agencias en San Pedro Sula y Tegucigalpa, donde asesores expertos están para atender sus consultas, cotizaciones y realizar todas las gestiones que necesite para su viaje. ¡Visítenos o llámenos hoy mismo!</p>
+      </div>
+    </div>
+    <div class="grid-container maps">
+      <div class="grid-item small-12 medium-6 large-6">
+        <iframe src="https://www.google.com/maps/embed?..." width="100%" height="307" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="grid-item small-12 medium-6 large-6 centrado">
+        <p><i class="fas fa-map-marker-alt"></i> SPS: Plaza El Prado, Local 7B, 20 calle 10 ave. S.O. Prado Alto.</p>
+        <p><i class="fas fa-clock"></i> Lunes a Viernes: 08:15 am a 05:00 pm</p>
+        <p><i class="fas fa-clock"></i> Sábado: 09:00 am a 12:00 m</p>
+        <div class="botones">
+          <button class="boton-telefono"><i class="fas fa-phone"></i> Tel 2772-5534</button>
+          <button class="boton-telefono"><i class="fas fa-phone"></i> Tel 2540-4432</button>
+        </div>
+      </div>
+    </div>
+    <div class="grid-container">
+      <h1 class="small-12">Contactanos</h1>
+      <form class="grid-item small-12 medium-12 large-12 form-container">
+        <div class="grid-container form">
+          <div class="grid-item small-12">
+            <label for="nombre">Nombre completo:</label>
+          </div>
+          <div class="grid-item small-12">
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          <div class="grid-item small-12">
+            <label for="email">Email:</label>
+          </div>
+          <div class="grid-item small-12">
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="grid-item small-12">
+            <label for="asunto">Asunto:</label>
+          </div>
+          <div class="grid-item small-12">
+            <input type="text" id="asunto" name="asunto" required>
+          </div>
+          <div class="grid-item small-12">
+            <label for="mensaje">Mensaje:</label>
+          </div>
+          <div class="grid-item small-12">
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+          </div>
+          <div class="grid-item small-12 enviar">
+            <button type="submit">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="grid-container direcciones">
+      <!-- Primera fila -->
+      <div class="grid-item small-12 medium-6 large-6 parte-1">
+        <div class="location-info">
+          <h2><i class="fas fa-map-marker-alt"></i> Comayagua, Comayagua</h2>
+          <p><i class="fas fa-user-tie"></i> Lic. Carolina Rodriguez / Gerente Reservaciones</p>
+          <p><i class="fas fa-phone"></i> Teléfono: (504) 8833-4322</p>
+          <p><i class="fas fa-envelope"></i> E-Mail: reservacionescom@espiritaventurier.com</p>
+          <p><i class="fab fa-whatsapp"></i> Whatsapp:</p>
+          <a href="#"><i class="fas fa-comment-dots"></i> Comunícate por Whatsapp</a>
+        </div>
+      </div>
+      <div class="grid-item small-12 medium-6 large-6 parte-2">
+        <div class="location-info">
+          <h2><i class="fas fa-map-marker-alt"></i> San Pedro Sula, Cortés</h2>
+          <p><i class="fas fa-user"></i> Andrea Rivera</p>
+          <p><i class="fas fa-phone"></i> Teléfono: (504) 3211-8520</p>
+          <p><i class="fas fa-envelope"></i> E-Mail: reservacionestgu@espiritaventurier.com</p>
+          <p><i class="fab fa-whatsapp"></i> Whatsapp:</p>
+          <a href="#"><i class="fas fa-comment-dots"></i> Comunícate por Whatsapp</a>
+        </div>
+      </div>
+      <!-- Segunda fila -->
+      <div class="grid-item small-12 medium-12 large-12 parte-3">
+        <div class="location-info">
+          <h2><i class="fas fa-map-marker-alt"></i> Tegucigalpa, Francisco Morazan</h2>
+          <p><i class="fas fa-user"></i> Karen Maldonado</p>
+          <p><i class="fas fa-phone"></i> Teléfono: (504) 9543-2234</p>
+          <p><i class="fas fa-envelope"></i> E-Mail: reservacionestgu@espiritaventurier.com</p>
+          <p><i class="fab fa-whatsapp"></i> Whatsapp:</p>
+          <a href="#"><i class="fas fa-comment-dots"></i> Comunícate por Whatsapp</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i><span>Instagram</span></a>
+        <a href="https://www.pinterest.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-pinterest"></i><span>Pinterest</span></a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+      </div>
+    </div>
+    <div class="carousel">
+      <input type="radio" name="carousel-control" id="carousel-control-1" class="carousel-control" checked>
+      <input type="radio" name="carousel-control" id="carousel-control-2" class="carousel-control">
+      <input type="radio" name="carousel-control" id="carousel-control-3" class="carousel-control">
+      <input type="radio" name="carousel-control" id="carousel-control-4" class="carousel-control">
+      <input type="radio" name="carousel-control" id="carousel-control-5" class="carousel-control">
+      <input type="radio" name="carousel-control" id="carousel-control-6" class="carousel-control">
+    
+      <div class="carousel-image-container">
+        <img src="https://www.thetrainline.com/cms/media/1508/germany-berlin-cathedral.jpg?mode=crop&width=1080&height=1080&quality=70" alt="Imagen 1">
+        <img src="https://media.gq-magazine.co.uk/photos/63e22233ba15d96679ff8885/1:1/w_1080,h_1080,c_limit/GQ-Travel-Guide-HP.jpg" alt="Imagen 2">
+        <img src="https://s29.q4cdn.com/330828691/files/images/2023/3.23/Amex_GlobalTravelTrends2023_IG_02.jpeg" alt="Imagen 3">
+        <img src="https://www.thetrainline.com/cms/media/1365/italy-venice-basilica-di-santa-maria-della-salute-and-grand-canal.jpg?mode=crop&width=1080&height=1080&quality=70" alt="Imagen 4">
+        <img src="https://www.moon.com/wp-content/uploads/2019/01/PA_MountWashingtonView_MariaFeklistova-Dreamstime.jpg?fit=1080%2C1080" alt="Imagen 5">
+        <img src="https://www.viajeselcorteingles.es/blog/wp-content/uploads/2017/11/hawaii-1080x1080.jpg" alt="Imagen 6">
+      </div>
+    
+      <label for="carousel-control-6" class="carousel-arrow carousel-arrow-left" id="arrow-left-1"></label>
+      <label for="carousel-control-2" class="carousel-arrow carousel-arrow-right" id="arrow-right-1"></label>
+      <label for="carousel-control-1" class="carousel-arrow carousel-arrow-left" id="arrow-left-2"></label>
+      <label for="carousel-control-3" class="carousel-arrow carousel-arrow-right" id="arrow-right-2"></label>
+      <label for="carousel-control-2" class="carousel-arrow carousel-arrow-left" id="arrow-left-3"></label>
+      <label for="carousel-control-4" class="carousel-arrow carousel-arrow-right" id="arrow-right-3"></label>
+      <label for="carousel-control-3" class="carousel-arrow carousel-arrow-left" id="arrow-left-4"></label>
+      <label for="carousel-control-5" class="carousel-arrow carousel-arrow-right" id="arrow-right-4"></label>
+      <label for="carousel-control-4" class="carousel-arrow carousel-arrow-left" id="arrow-left-5"></label>
+      <label for="carousel-control-6" class="carousel-arrow carousel-arrow-right" id="arrow-right-5"></label>
+      <label for="carousel-control-5" class="carousel-arrow carousel-arrow-left" id="arrow-left-6"></label>
+      <label for="carousel-control-1" class="carousel-arrow carousel-arrow-right" id="arrow-right-6"></label>
+    </div>
+    <div class="carousel-desktop">
+      <img src="https://www.thetrainline.com/cms/media/1508/germany-berlin-cathedral.jpg?mode=crop&width=1080&height=1080&quality=70" alt="Imagen 1">
+      <img src="https://media.gq-magazine.co.uk/photos/63e22233ba15d96679ff8885/1:1/w_1080,h_1080,c_limit/GQ-Travel-Guide-HP.jpg" alt="Imagen 2">
+      <img src="https://s29.q4cdn.com/330828691/files/images/2023/3.23/Amex_GlobalTravelTrends2023_IG_02.jpeg" alt="Imagen 3">
+      <img src="https://www.thetrainline.com/cms/media/1365/italy-venice-basilica-di-santa-maria-della-salute-and-grand-canal.jpg?mode=crop&width=1080&height=1080&quality=70" alt="Imagen 4">
+      <img src="https://www.moon.com/wp-content/uploads/2019/01/PA_MountWashingtonView_MariaFeklistova-Dreamstime.jpg?fit=1080%2C1080" alt="Imagen 5">
+      <img src="https://www.viajeselcorteingles.es/blog/wp-content/uploads/2017/11/hawaii-1080x1080.jpg" alt="Imagen 6">
+    </div>
+    <div class="copyright-container">
+      <div class="copyright">
+        <p>&copy; 2023 Todos los derechos reservados.</p>
+      </div>
+      <div class="company-name">
+        <p>Espirit Aventurier</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
