@@ -2,6 +2,7 @@
   --color-header: #5caab1;
   --color-footer: #5caab1;
   --color-hero: #335053;
+  --color-h1: black;
 }
 
 * {
@@ -169,6 +170,7 @@ ul {
 
 /* Inicio de CSS de cada archivo independiente */
 
+
 /* Estilos del hero */
 .hero {
   background-color: var(--color-hero);
@@ -250,7 +252,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(65, 65, 189);
+  color: var(--color-header);
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1rem;
 }
